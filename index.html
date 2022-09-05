@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
@@ -16,20 +17,51 @@
 </head>
 <body>
 
-  Features
-  Company
-  Careers
-  About
+  <div class="wrapper">
+      <section class="header">
+        <div class="header_left">
+          <img src="./images/logo.svg" alt="">
+          <nav>
+            <ul>
+              <li>Features</li>
+              <li>Company</li>
+              <li>Careers</li>
+              <li>About</li>
+            </ul>
+          </nav>
+        </div>
+        
+        <div class="header_btn">
+            <button class="btn_1">Login</button>
+            <button class="btn_2">Register</button>
+        </div>
+      </section>
 
-  Login
-  Register
+      <section class="hero_section">
+        <div class="hero_text">
+         <div> Make <br>
+          remote work</div>
+          <p>
+            Get your team in sync, no matter your location. <br /> Streamline processes, 
+            create team rituals, and <br /> watch productivity soar.
+          </p>
+          <div class="hero_btn">
+            <button>Learn more</button>
+          </div>
+          <div class="companies">
+              
+          </div>
+        </div>
+        <div class="hero_img">
+          <img src="./images/image-hero-desktop.png" alt="">
+        </div>
+        
+      </section>
 
-  Make remote work
 
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
+  </div>
 
-  Learn more
+ 
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
